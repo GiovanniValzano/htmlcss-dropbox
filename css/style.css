@@ -67,7 +67,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
-    padding-right: 5px;
+    padding-right: 20px;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -117,4 +118,99 @@ h1 {
 
 .fa-arrow-down {
     margin-top: 140px;
+}
+
+.smallconteiner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.smallconteiner h2 {
+    font-size: 40px;
+}
+
+.radiocont {
+    margin-top: 27px;
+    display: inline-block;
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.radiocont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .radiocont:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .radiocont input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .radiocont input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .radiocont .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.plans {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.planscolumns{
+    border: 1px solid rgb(195, 195, 195);
+    height: 300px;
+    flex: 1 1 calc(100%-80px/3);
+}
+
+.coltitle {
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.coltitle h3 {
+    margin: 8px 0px 8px 0px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.colcontent {
+    padding-left: 20px;
+    padding-right: 20px;
 }

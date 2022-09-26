@@ -194,13 +194,11 @@ h1 {
 
 .planscolumns{
     border: 1px solid rgb(195, 195, 195);
-    height: 300px;
-    flex: 1 1 calc(100%-80px/3);
+    flex: 1 1 30%;
 }
 
 .coltitle {
     text-align: center;
-    display: block;
     border-bottom: 1px solid rgb(195, 195, 195);
 }
 
@@ -211,6 +209,165 @@ h1 {
 }
 
 .colcontent {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.colcontent h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.colcontent .price {
+    font-weight: 600;
+    margin-bottom: -8px;
+}
+
+.colcontent .month {
+    color: rgb(168, 168, 168);
+}
+
+.colcontent .btn {
+    display: inline-block;
+    border: 0;
+    color: white;
+    background-color: rgb(0, 94, 255);
+    padding: 10px 0 10px 0;
+    transition: .2s;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.colcontent ul {
+    margin-bottom: 40px;
+}
+
+.colcontent .btn:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.colcontent hr {
+    width: 20%;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.colcontent li {
+    margin-bottom: 10px;
+}
+
+.check {
+    color: rgb(0, 94, 255);
+}
+
+.teamblock {
+    margin-top: 50px;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+.teamcont {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.teamcont .btn {
+    display: inline-block;
+    border: 0;
+    color: white;
+    background-color: rgb(0, 94, 255);
+    padding: 10px 0 10px 0;
+    transition: .2s;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.teamcont .btn:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.teambtn {
+    flex: 1 1 30%;
+}
+
+.teamtext {
+    flex: 1 1 70%;
+} 
+
+.teamtext h5 {
+    margin-bottom: 50px;
+}
+
+.contpartner {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    margin-top: 120px;
+    line-height: 1.4;
+}
+
+.imgpartner img {
+    width: 100%;
+}
+
+.imgpartner {
+    flex: 1 1 60%;
+}
+
+.textpartner {
+    flex: 1 1 40%;
+}
+
+.textpartner h5 {
+    font-size: 22px;
+}
+
+.textpartner a {
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    border: 1px solid rgb(42, 42, 42);
+    padding: 10px 8px 10px 8px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: .2s;
+}
+
+.textpartner a:hover {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.cardcont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cards {
+    width: 30%;
+    flex: 1 1 auto;
+    min-width: 250px;
+    line-height: 1.4;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.cardtitle {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.cards h6{
+    font-size: 20px;
 }

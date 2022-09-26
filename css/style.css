@@ -364,10 +364,120 @@ h1 {
 }
 
 .cardtitle {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 100px;
 }
 
 .cards h6{
     font-size: 20px;
+}
+
+.sponsorcont {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.sponsorcard {
+    width: 33.33%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    width: 50%;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+}
+
+.sponsor img {
+    width: 50%;
+    filter: invert(1);
+}
+
+.mainsponsorcard {
+    width: 33.33%;
+    flex: 1 1 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(233, 233, 233);
+}
+
+.green {
+    background-color: rgb(135, 207, 138);
+}
+
+.darkred {
+    background-color: rgb(106, 0, 0);
+}
+
+.blue {
+    background-color: rgb(2, 154, 249);
+}
+
+.lightred {
+    background-color: rgb(255, 32, 32);
+}
+
+.red {
+    background-color: rgb(203, 0, 0);
+}
+
+.ligthblue {
+    background-color: rgb(171, 227, 255);
+}
+
+.darkblue {
+    background-color: rgb(28, 55, 145);
+}
+
+.yellow {
+    background-color: rgb(255, 230, 0);
+}
+
+.mainsponsorcard img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.mainsponsorcard hr {
+    width: 20%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 24px;
+}
+
+.mainsponsorcard p {
+    margin-bottom: 50px;
+}
+
+.freetry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.freetry h5 {
+    font-size: 30px;
+}
+
+.freetry a {
+    color: black;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    transition: .2s;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.freetry a:hover {
+    background-color: black;
+    color: white;
 }

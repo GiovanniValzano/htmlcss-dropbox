@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -68,7 +68,6 @@ body {
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 100px;
 }
 
 h1 {
@@ -130,6 +129,7 @@ h1 {
 
 .smallconteiner h2 {
     font-size: 40px;
+    margin-top: 100px;
 }
 
 .radiocont {
@@ -480,4 +480,60 @@ h1 {
 .freetry a:hover {
     background-color: black;
     color: white;
+}
+
+.titledomande {
+    font-size: 30px;
+}
+
+.domande {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.domande h6 {
+    font-size: 15px;
+}
+
+.lastdomanda {
+    border-bottom: 1px solid black;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.listcont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listcont ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listcont li {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.list h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer hr {
+    width: 10%;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
